@@ -1,0 +1,51 @@
+<DOCTYPE! html>
+<html>
+	<head>
+		<title>My Shopping List</title>
+		<link rel="stylesheet" href="main.css" type="text/css" charset="utf-8">
+  	 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:400,700,500|Droid+Sans:400,700|Lobster|Pacifico|Quicksand|Crafty+Girls|Changa+One' rel='stylesheet' type='text/css'>
+  	 <link rel="stylesheet" href="reset.css">
+  	 <link rel="stylesheet" href="main.css">
+	</head>
+
+    <body>
+    	<header>
+    		<h1>My Shopping List</h1>
+    	</header>
+
+    	<p>Buy any item and add to your shopping cart</p>
+<!-- wrapper begins -->
+    	<div id="wrapper">
+    		<form>
+    			
+                <input type="text" id="item" name="text">
+    			<button type="button" id="add">+Add</button>
+
+            </form>
+                
+            <div =unordereddiv>
+
+                   <div id="shoppingcartdiv">
+                      <h2>Shopping Cart:</h2>
+        			  <ul id="UnpurchasedItems"></ul>
+                   </div>
+                   
+
+                 <!-- purchased items -->
+                 <div id="purchaseddiv">
+                      <h2>Purchased Items:</h2>
+        			  <ul id="PurchasedItems"></ul>
+                 </div>
+            </div>
+    		
+<!-- wrapper ends -->
+    	</div>
+
+    	<footer>&copy 2014 Designed by mimi</footer>
+
+     <script src="jquery-1.11.1.js"></script>
+     <script type="text/javascript" src="script.js" charset="utf-8"></script>
+
+    </body>
+
+</html>
