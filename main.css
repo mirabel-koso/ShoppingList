@@ -1,0 +1,83 @@
+body{
+	background-image: url("img/image2.jpg");
+}
+
+h1{
+	font-size: 3.5em;
+	font-family: "Pacifico", "cursive";
+	text-align: center;
+	color: #5511ff;
+}
+
+p{
+	font-size: 3.0em;
+	font-family: "Lobster","cursive";
+	color: #5511ff;
+	text-align: center;
+}
+
+#wrapper{
+	float: right;
+	background-color: pink;
+	border-style: 5px solid #ff1199;
+	width: 40%;
+	height: 60%;
+	margin-left: 3em;
+	margin-top: 5rem;
+	border-radius: 10%;
+}
+
+label{
+	padding: 10px;
+}
+
+/*label{
+	text-align: center;
+	font-size: 1.0em;
+	font-style: italic;
+	margin-left: 90px;
+	position: relative;
+	top: 50px;
+	color: #bb4444;
+	display: inline-block;
+}*/
+
+#item, #add{
+	margin-left: 92px;
+	position: relative;
+	top: 80px;
+	width: 120px;
+	background-color: #5511ff;
+	color: #222;
+	font-size: 1.2em;
+}
+
+#item{
+	background-color: #fff;
+}
+
+
+h2{
+	font-size: 1.8em;
+	color: #bb4444;
+	position: relative;
+	left: 80px;
+	top: 120px;
+}
+
+#PurchasedItems, #UnpurchasedItems{
+	width: 300px;
+	height: 80px;
+	position: relative;
+	top: 130px;
+	left: 80px;
+}
+
+
+footer{
+	position: absolute;
+	width: 100%;
+	text-align: left;
+	left: 20px;
+	bottom: 5px;
+}
